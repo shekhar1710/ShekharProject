@@ -11,10 +11,11 @@ public class ArrayList {
 
 	public static void main(String[] args) {
 		
-		List<String> mechanical = Arrays.asList("Shekhar","Krushnat");
-		List<String> civil = Arrays.asList("Rushikesh","Shrikant");
-		List<String> electronics = Arrays.asList("Gayatri","Arav");
-		List<String> computer = Arrays.asList("Rohit","Mohit");
+		List<String> mechanical = Arrays.asList("Shekhar","Krushnat","Atul");
+		List<String> civil = Arrays.asList("Rushikesh","Shrikant","Manik");
+		List<String> electronics = Arrays.asList("Gayatri","Arav","Yuvraj");
+		List<String> computer = Arrays.asList("Rohit","Mohit","Purohit");
+		List<String> electrical = Arrays.asList("Godavari","Kailas","Shankar");
 
 		
 		Map<String, List<String>> map = new HashMap<>();
@@ -23,7 +24,7 @@ public class ArrayList {
 		map.put("Civil :", civil);
 		map.put("Electronics :", electronics);
 		map.put("Computer :", computer);
-		
+		map.put("Electrical", electrical);
 		
 		Set<String> set = map.keySet();
 		for(Object o : set) {
