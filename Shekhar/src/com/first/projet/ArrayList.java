@@ -24,7 +24,7 @@ public class ArrayList {
 		map.put("Civil :", civil);
 		map.put("Electronics :", electronics);
 		map.put("Computer :", computer);
-		map.put("Electrical", electrical);
+		map.put("Electrical", electrical);    
 		
 		Set<String> set = map.keySet();
 		for(Object o : set) {
